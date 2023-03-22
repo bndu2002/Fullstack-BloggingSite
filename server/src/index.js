@@ -5,7 +5,7 @@ const { default: mongoose } = require('mongoose');
 const cookieParser = require('cookie-Parser')
 
 const app = express();
-app.use(express.static(__dirname + '/../../'))
+
 app.use(cookieParser())
 
 
